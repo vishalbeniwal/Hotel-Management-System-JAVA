@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="516.0" prefWidth="759.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.MainWindowController">
+   <children>
+      <MenuBar>
+         <menus>
+            <Menu mnemonicParsing="false" text="File">
+               <items>
+                  <MenuItem fx:id="importButton" mnemonicParsing="false" onAction="#importDataFromMenuListener" text="Import Room Data" />
+                  <MenuItem fx:id="exportButton" mnemonicParsing="false" onAction="#exporttDataFromMenuListener" text="Export Room Data" />
+                  <MenuItem fx:id="saveDataMenuItem" mnemonicParsing="false" onAction="#saveDataListener" text="Save Data" />
+                  <MenuItem fx:id="loadDataMenuItem" mnemonicParsing="false" onAction="#loadDataListener" text="Load Data" />
+                  <MenuItem fx:id="refreshMenuItem" mnemonicParsing="false" onAction="#refreshDataListener" text="Refresh Screen" />
+                  <MenuItem mnemonicParsing="false" onAction="#quitProgramListener" text="Quit" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Add Room">
+               <items>
+                  <MenuItem mnemonicParsing="false" onAction="#handleAddRoomMenuItem" text="Add Standard" />
+                  <MenuItem mnemonicParsing="false" onAction="#handleAddSuiteMenuItem" text="Add Suite" />
+               </items>
+            </Menu>
+         </menus>
+      </MenuBar>
+      <HBox id="HBox" alignment="CENTER_LEFT" spacing="5.0">
+         <children>
+            <Pane prefHeight="-1.0" prefWidth="-1.0" HBox.hgrow="ALWAYS" />
+            <Label maxWidth="-1.0" text="CityLodge App" HBox.hgrow="NEVER">
+               <font>
+                  <Font size="11.0" fx:id="x3" />
+               </font>
+               <textFill>
+                  <Color blue="0.625" green="0.625" red="0.625" fx:id="x4" />
+               </textFill>
+            </Label>
+         </children>
+         <padding>
+            <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+         </padding>
+      </HBox>
+      <ListView fx:id="mainListView" prefHeight="467.0" prefWidth="759.0" />
+   </children>
+</VBox>

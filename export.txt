@@ -1,0 +1,10 @@
+R_001:4:Standard:Available:Heater, Internet access, Television:R_001.jpg
+R_001_Akshay_22102019:22/10/2019:26/10/2019:28/10/2019:796.0:537.3000000000001
+R_001_Vishal_18102019:18/10/2019:21/10/2019:21/10/2019:597.0:0.0
+R_002:2:Standard:Available:Heater, Television:R_002.jpg
+R_003:1:Standard:Available:Television:R_003.jpg
+S_001:6:Suite:Available:20/10/2019:Balcony, Heater, Internet access, Television:S_001.jpg
+S_001_Ben_26102019:26/10/2019:28/10/2019:29/10/2019:1998.0:1099.0
+S_001_Sam_21102019:21/10/2019:25/10/2019:25/10/2019:3996.0:0.0
+S_002:6:Suite:Available:21/10/2019:Balcony, Heater, Internet access, Television:S_002.jpg
+S_003:6:Suite:Available:22/10/2019:Balcony, Heater, Internet access, Television:S_003.jpg
